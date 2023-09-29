@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod betty hello --reference=betty
+chown -h vincent:staff _hello
