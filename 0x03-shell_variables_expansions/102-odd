@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | grep -n '' | cut -d: -f2
+paste - - | cut -d$'\t' -f1
