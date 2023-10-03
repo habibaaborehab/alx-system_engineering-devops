@@ -1,6 +1,2 @@
 #!/bin/bash
-while read -r line; do
-  if (( NR % 2 == 0 )); then
-    echo "$line"
-  fi
-done
+ls -1 | awk '{if(NR%2==0)print}'
